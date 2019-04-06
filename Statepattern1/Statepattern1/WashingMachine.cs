@@ -12,11 +12,9 @@ namespace Statepattern1
         public void Washing()
         {
             this.state = new Washing();
-
             while (this.state != null) {
                 this.state.DoAction(this);
             }
-
             Console.WriteLine("終わりました。");
             Console.ReadKey();
         }
