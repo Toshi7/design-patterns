@@ -10,5 +10,6 @@ namespace StatePattern2
         void ChangeState(IState state);
        void CallSecurityCenter(string msg);
        void RecordLog(string msg);
+        void ChangeState(Func<IState> getInstance);
     }
 }
