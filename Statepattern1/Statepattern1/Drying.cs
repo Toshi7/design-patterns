@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Statepattern1
+namespace StatePattern1
 {
     class Drying : IState
     {

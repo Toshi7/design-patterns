@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Statepattern1
+namespace StatePattern1
 {
     class WashingmMachine
     {
@@ -12,7 +12,8 @@ namespace Statepattern1
         public void Washing()
         {
             this.state = new Washing();
-            while (this.state != null) {
+            while (this.state != null)
+            {
                 this.state.DoAction(this);
             }
             Console.WriteLine("終わりました。");
