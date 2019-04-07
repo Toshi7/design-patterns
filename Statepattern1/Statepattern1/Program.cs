@@ -12,6 +12,5 @@ namespace Statepattern1
             obj.Washing();
             Console.ReadKey();
         }
-
     }
 }
