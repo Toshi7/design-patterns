@@ -4,12 +4,12 @@ using System.Text;
 
 namespace StatePattern1
 {
-    class Washing : IState
+    class SpinningState : IState
     {
         public void DoAction(WashingmMachine washingMachine)
         {
-            Console.WriteLine("洗いました。");
-            washingMachine.SetState(new Rinsing());
+            Console.WriteLine("脱水しました。");
+            washingMachine.SetState(new DryingState());
         }
     }
 }

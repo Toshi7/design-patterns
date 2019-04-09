@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StatePattern1
 {
-    class Drying : IState
+    class DryingState : IState
     {
         public void DoAction(WashingmMachine washingMachine)
         {

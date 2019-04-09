@@ -11,7 +11,7 @@ namespace StatePattern1
         }
         public void Washing()
         {
-            this.state = new Washing();
+            this.state = new WashingState();
             while (this.state != null)
             {
                 this.state.DoAction(this);
